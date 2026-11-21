@@ -1,0 +1,45 @@
+# Per-user configuration, OAuth tokens, and credentials
+config/
+*.token
+*.pem
+*.key
+
+# Local invoice data and private communications
+*.db
+*.sqlite
+*.sqlite3
+*.xlsx
+*.xls
+*.eml
+*.msg
+*.docx
+*.zip
+*.csv
+*.pdf
+entrada/
+whatsapp/
+arquivo/
+por identificar/
+repetidos/
+emails_backup/
+
+# Generated reports, logs, catalogs, and distributables
+logs/
+relatorios/
+catalogo/
+legacy_builds/
+dist/
+build/
+Instalador_Output/
+*.spec
+
+# Python and editor artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.idea/
+.vscode/
+~$*
